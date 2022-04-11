@@ -1,0 +1,31 @@
+
+.sign-up , .sign-in{ 
+    background-color: #dde3ff;
+    color: black;
+    border: none;
+
+}
+
+.email-input{
+    border: none;
+    background-color: #E7EBFF;
+    padding: 0.7rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+@media screen and (max-width : 300px) {
+    .email{
+        width: 200px;
+    }
+}
+
+@media screen and (min-width : 992px){
+    .email-input{
+        width: 75% !important;
+    }
+    .email-btn{
+        width: 25% !important;
+        
+    }
+}
